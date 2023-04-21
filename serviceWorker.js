@@ -27,7 +27,9 @@ const assets = [
     "/katiaolem.github.io/images/login.png",
     "/katiaolem.github.io/images/left-arrow.png",
     "/katiaolem.github.io/images/right-arrow.png",
+    "/katiaolem.github.io/images/welcome_cat.gif",
     "/katiaolem.github.io/pages/fallback.html",
+
 
     
 ]

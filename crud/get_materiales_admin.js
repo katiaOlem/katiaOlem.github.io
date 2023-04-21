@@ -51,7 +51,7 @@ function getMateriales() {
         
                     '</p>' +
                     '<p class="parrafos">' + descripcion + '</p>' +
-                    '<a class="btn btn-primary1 btn-lg" href="/admin/templates/ver_material?' + id + '">Editar</a>' +
+                    '<a class="btn btn-primary1 btn-lg" href="/katiaolem.github.io/admin/templates/ver_material?' + id + '">Editar</a>' +
                     '</div>' +
                     '</div>';                
                 }

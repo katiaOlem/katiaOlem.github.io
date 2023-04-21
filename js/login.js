@@ -38,7 +38,7 @@ function login(){
                 text: "Ingreso exitoso",
                 type: "success"
             }).then(function() {
-                window.location = "/admin/templates/materiales.html";
+                window.location = "/katiaolem.github.io/admin/templates/materiales.html";
             });
         }
 
@@ -48,7 +48,7 @@ function login(){
                 text: "Ingreso exitoso",
                 type: "success"
             }).then(function() {
-                window.location = "/index.html";
+                window.location = "/katiaolem.github.io/index.html";
             });
         }
         
@@ -67,7 +67,7 @@ function login(){
                 text: "Por favor ingrese una contraseña valida",
                 type: "error"
             }).then(function() {
-                window.location = "/templates/login.html";
+                window.location = "/katiaolem.github.io/admin/templates/login.html";
             });
         }
         else if(code==400 && message == "EMAIL_NOT_FOUND"){
@@ -76,7 +76,7 @@ function login(){
                 text: "Por favor ingrese un usuario valido",
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/login.html";
+                window.location = "/katiaolem.github.io/admin/templates/login.html";
             });
         }
         else if(code==400 && message == "INVALID_EMAIL"){                
@@ -85,7 +85,7 @@ function login(){
                 text: "Revisar el correo electronico",
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/login.html";
+                window.location = "/katiaolem.github.io/admin/templates/login.html";
             });
         }
     

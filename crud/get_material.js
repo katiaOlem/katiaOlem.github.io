@@ -43,9 +43,9 @@ function ver_material() {
             precio.value = costof;
             imagen.src = imagenf;
 
-            btn_actualizar.innerHTML    = '<br><br><br><br><br><br><br><a href="update_material.html?' + id + '" class="btn btn-success btn-block btn-lg">Actualizar</a>';
+            btn_actualizar.innerHTML    = '<br><br><br><br><br><br><br><a href="/katiaolem.github.io/update_material.html?' + id + '" class="btn btn-success btn-block btn-lg">Actualizar</a>';
             btn_eliminar.innerHTML      = '<br><br><br><br><br><br><br><input type="button" value="Eliminar" class="btn btn-danger btn-block btn-lg" onclick="delete_material()">';
-            btn_regresar.innerHTML      = '<br><br><br><br><br><br><br><a href="materiales.html" class="btn btn-primary btn-block btn-lg">Regresar</a>';
+            btn_regresar.innerHTML      = '<br><br><br><br><br><br><br><a href="/katiaolem.github.io/materiales.html" class="btn btn-primary btn-block btn-lg">Regresar</a>';
            
         }
 
@@ -67,7 +67,7 @@ function ver_material() {
                 text: "Verifique de nuevo",
                 type: "info"
             }).then(function() {
-                window.location = "/index.html";
+                window.location = "/katiaolem.github.io/index.html";
             }
             );
         }

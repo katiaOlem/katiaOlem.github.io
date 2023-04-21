@@ -43,7 +43,7 @@ function Post_materiales() {
                 text: json.detail,
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/login.html";
+                window.location = "/katiaolem.github.io/admin/templates/login.html";
             }
             );
         }
@@ -62,7 +62,7 @@ function Post_materiales() {
                     text: "No se ha iniciado sesión",
                     type: "error"
                 }).then(function() {
-                    window.location = "/admin/templates/login.html";
+                    window.location = "/katiaolem.github.io/admin/templates/login.html";
                 }
                 );
             }
@@ -72,7 +72,7 @@ function Post_materiales() {
                     text: "Redireccionando...",
                     type: "success"
                 }).then(function() {
-                    window.location = "/admin/templates/materiales.html";
+                    window.location = "/katiaolem.github.io/admin/templates/materiales.html";
                 });
             }
 
@@ -82,7 +82,7 @@ function Post_materiales() {
                     text: "Redireccionando...",
                     type: "error"
                 }).then(function() {
-                    window.location = "../index.html";
+                    window.location = "../katiaolem.github.io/index.html";
                 }
                 );
             }
@@ -94,7 +94,7 @@ function Post_materiales() {
             text: "Todos los campos son obligatorios",
             type: "error"
         }).then(function() {
-            window.location = "/admin/templates/crear_material.html";
+            window.location = "/katiaolem.github.io/admin/templates/crear_material.html";
         }
         );
     }

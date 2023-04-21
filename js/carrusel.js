@@ -1,7 +1,7 @@
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", function () {
         navigator.serviceWorker
-            .register("/serviceWorker.js")
+            .register("/katiaolem.github.io/serviceWorker.js")
             .then(res => console.log("service worker registered"))
             .catch(err => console.log("service worker not registered", err))
     })
@@ -232,7 +232,7 @@ function buscar_evento(){
                         '</ul>'+
                         '</p>'+
                         '<p class="parrafos">'+descripcion+'</p>'+
-                        '<a class="btn btn-success btn-sm btn-block btn-lg" href="/templates/ubicacion.html?' + id + '">Ver más</a>' +
+                        '<a class="btn btn-success btn-sm btn-block btn-lg" href="/katiaolem.github.io/templates/ubicacion.html?' + id + '">Ver más</a>' +
                         '</div>'+
                         '</div>'+
                         '</center>';

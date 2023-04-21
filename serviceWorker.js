@@ -13,18 +13,6 @@ const assets = [
     "/katiaolem.github.io/templates/crear_material.html",
     "/katiaolem.github.io/templates/materiales.html",
     "/katiaolem.github.io/templates/ubicacion.html",
-   
-
-    "/admin/templates/index.html",
-    "/admin/templates/crear_material.html",
-    "/admin/templates/login.html",
-    "/admin/templates/materiales.html",
-    "/admin/templates/registro.html",
-    "/admin/templates/update_material.html",
-    "/admin/templates/ver_material.html",
-    "/templates/crear_material.html",
-    "/templates/materiales.html",
-    "/templates/ubicacion.html",
     "/katiaolem.github.io/css/style.css",
     "/katiaolem.github.io/css/font-awesome.min.css",
     "/katiaolem.github.io/css/font-awesome.css",

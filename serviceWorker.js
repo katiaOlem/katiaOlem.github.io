@@ -1,7 +1,6 @@
 const staticBraLy = "BraLy-vitae-v1"
 const assets = [
     "/",
-    "/index.html",
     "/katiaolem.github.io/index.html",
     "/katiaolem.github.io/admin/templates/login.html",
     "/katiaolem.github.io/admin/templates/registro.html",

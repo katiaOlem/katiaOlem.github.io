@@ -48,7 +48,6 @@ function getMateriales() {
                     '<p class="card-text">' +
                     '<ul>' +
                     '<li class="parrafos">Lugar: ' + lugar + '</li>' +
-        
                     '</p>' +
                     '<p class="parrafos">' + descripcion + '</p>' +
                     '<a class="btn btn-primary1 btn-lg" href="/katiaolem.github.io/admin/templates/ver_material?' + id + '">Editar</a>' +

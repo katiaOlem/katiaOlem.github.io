@@ -41,7 +41,7 @@ function update_materiales() {
                 text: "Iniciar sesión",
                 type: "error"
             }).then(function() {
-                window.location = "/katiaolem.github.io/admin/templates/login.html";
+                window.location = "/MaterialesRegistrados.github.io/admin/templates/login.html";
             });
         }
 
@@ -51,7 +51,7 @@ function update_materiales() {
                 text: "Iniciar sesión",
                 type: "error"
             }).then(function() {
-                window.location = "/katiaolem.github.io/admin/templates/login.html";
+                window.location = "/MaterialesRegistrados.github.io/admin/templates/login.html";
             });
         }
 
@@ -66,7 +66,7 @@ function update_materiales() {
                 text: "",
                 type: "info"
             }).then(function() {
-                window.location = "/katiaolem.github.io/admin/templates/ver_material.html?" + id;
+                window.location = "/MaterialesRegistrados.github.io/admin/templates/ver_material.html?" + id;
             });
         }
     };

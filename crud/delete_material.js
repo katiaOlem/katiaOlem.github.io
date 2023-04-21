@@ -32,7 +32,7 @@ function delete_material() {
                         text: json.detail,
                         type: "error"
                     }).then(function() {
-                        window.location = "/katiaolem.github.io/admin/templates/login.html";
+                        window.location = "/MaterialesRegistrados.github.io/admin/templates/login.html";
                     });
                 }
 
@@ -42,7 +42,7 @@ function delete_material() {
                         text: "Iniciar sesión",
                         type: "error"
                     }).then(function() {
-                        window.location = "/katiaolem.github.io/admin/templates/login.html";
+                        window.location = "/MaterialesRegistrados.github.io/admin/templates/login.html";
                     });
                 }
 
@@ -53,7 +53,7 @@ function delete_material() {
                         confirmButtonText: "Aceptar"
                     }).then(result => {
                         if (result.value) {
-                            window.location.href = "/katiaolem.github.io/admin/templates/materiales.html";
+                            window.location.href = "/MaterialesRegistrados.github.io/admin/templates/materiales.html";
                         }
                     });
                 }

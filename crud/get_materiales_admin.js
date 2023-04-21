@@ -50,7 +50,7 @@ function getMateriales() {
                     '<li class="parrafos">Lugar: ' + lugar + '</li>' +
                     '</p>' +
                     '<p class="parrafos">' + descripcion + '</p>' +
-                    '<a class="btn btn-primary1 btn-lg" href="/katiaolem.github.io/admin/templates/ver_material?' + id + '">Editar</a>' +
+                    '<a class="btn btn-primary1 btn-lg" href="/MaterialesRegistrados.github.io/admin/templates/ver_material?' + id + '">Editar</a>' +
                     '</div>' +
                     '</div>';                
                 }

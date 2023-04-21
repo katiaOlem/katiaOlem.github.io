@@ -76,7 +76,7 @@ function login(){
                 text: "Por favor ingrese un usuario valido",
                 type: "error"
             }).then(function() {
-                window.location = "/katiaolem.github.io/templates/login.html";
+                window.location = "/katiaolem.github.io/admin/templates/login.html";
             });
         }
         else if(code==400 && message == "INVALID_EMAIL"){                
@@ -85,7 +85,7 @@ function login(){
                 text: "Revisar el correo electronico",
                 type: "error"
             }).then(function() {
-                window.location = "/katiaolem.github.io/templates/login.html";
+                window.location = "/katiaolem.github.io/admin/templates/login.html";
             });
         }
     

@@ -10,11 +10,11 @@ if ("serviceWorker" in navigator) {
 
 const notification = new Notification("Bienvenido!", {
     body: "TIENDA DE MATERIALES ",
-    icon: "/images/icons/icon-96x96.png",
+    icon: "/katiaolem.github.io/images/icons/icon-96x96.png",
     timeout: 1500000,
     vibrate: [100, 100, 100],
     onClick: function(){
-        window.location = "/templates/materiales.html";
+        window.location = "/katiaolem.github.io/templates/materiales.html";
         console.log(this);
     }
 });
@@ -62,7 +62,7 @@ self.addEventListener('push', function (event) {
         const notificationText = event.data.text();
         const showNotification = self.registration.showNotification('Notificaciones', {
             body: notificationText,
-            icon: '/images/icons/icon-96x96.png'
+            icon: '/katiaolem.github.io/images/icons/icon-96x96.png'
         });
         // Make sure the toast notification is displayed.
         event.waitUntil(showNotification);
@@ -160,7 +160,7 @@ function imagenes_carrucel(){
                         concat = id_product.concat(cont-1);    
                         //console.log(concat);
                         carru.innerHTML += '<div class="product" id="'+concat+'">'+
-                        '<a class="navbar-brand" href="/templates/ubicacion.html?'+id+'">'+
+                        '<a class="navbar-brand" href="/katiaolem.github.io/templates/ubicacion.html?'+id+'">'+
                             '<img src="'+imagen+'" class="d-inline-block align-top" alt="">'+
                         '</a>'+
                         '<h5>'+nombre+'</h5>'+

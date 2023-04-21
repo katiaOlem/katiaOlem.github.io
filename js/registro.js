@@ -29,7 +29,7 @@ function PostRegUser(){
                 text: "Bienvenido",
                 type: "success",
             }).then(function() {
-                window.location = "/templates/login.html";
+                window.location = "/katiaolem.github.io/templates/login.html";
             });
         }
         
@@ -47,7 +47,7 @@ function PostRegUser(){
                 text: "Por favor ingrese otro email",
                 type: "error"
             }).then(function() {
-                window.location = "/templates/registro.html";
+                window.location = "/katiaolem.github.io/templates/registro.html";
             });
         }  
         else if(code==400 && message== "INVALID_EMAIL"){                
@@ -56,7 +56,7 @@ function PostRegUser(){
                 text: "Revisar el correo electronico",
                 type: "error"
             }).then(function() {
-                window.location = "/templates/registro.html";
+                window.location = "/katiaolem.github.io/templates/registro.html";
             });
         }
         else if(code==400 && message == "WEAK_PASSWORD : Password should be at least 6 characters"){
@@ -66,7 +66,7 @@ function PostRegUser(){
                 text: "Ingresa una contraseña mas fuerte ",
                 type: "error"
             }).then(function() {
-                window.location = "/templates/registro.html";
+                window.location = "/katiaolem.github.io/templates/registro.html";
             });
         }
         else if(code==400 && message == "MISSING_EMAIL"){
@@ -75,7 +75,7 @@ function PostRegUser(){
                 text: "Ingresa un email",
                 type: "error"
             }).then(function() {
-                window.location = "/templates/registro.html";
+                window.location = "/katiaolem.github.io/templates/registro.html";
             });
         }
         else if(code==400 && message == "MISSING_PASSWORD"){
@@ -84,7 +84,7 @@ function PostRegUser(){
                 text: "Ingresa una contraseña",
                 type: "error"
             }).then(function() {
-                window.location = "/templates/registro.html";
+                window.location = "/katiaolem.github.io/templates/registro.html";
             });
         }
     };
@@ -127,7 +127,7 @@ function PostRegUser_Admin(){
                 text: "Bienvenido",
                 type: "success",
             }).then(function() {
-                window.location = "/admin/templates/login.html";
+                window.location = "/katiaolem.github.io/admin/templates/login.html";
             });
         }
         
@@ -145,7 +145,7 @@ function PostRegUser_Admin(){
                 text: "Por favor ingrese otro email",
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/registro.html";
+                window.location = "/katiaolem.github.io/admin/templates/registro.html";
             });
         }  
         else if(code==400 && message== "INVALID_EMAIL"){                
@@ -154,7 +154,7 @@ function PostRegUser_Admin(){
                 text: "Revisar el correo electronico",
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/registro.html";
+                window.location = "/katiaolem.github.io/admin/templates/registro.html";
             });
         }
         else if(code==400 && message == "WEAK_PASSWORD : Password should be at least 6 characters"){
@@ -164,7 +164,7 @@ function PostRegUser_Admin(){
                 text: "Ingresa una contraseña mas fuerte ",
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/registro.html";
+                window.location = "/katiaolem.github.io/admin/templates/registro.html";
             });
         }
         else if(code==400 && message == "MISSING_EMAIL"){
@@ -173,7 +173,7 @@ function PostRegUser_Admin(){
                 text: "Ingresa un email",
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/registro.html";
+                window.location = "/katiaolem.github.io/admin/templates/registro.html";
             });
         }
         else if(code==400 && message == "MISSING_PASSWORD"){
@@ -182,7 +182,7 @@ function PostRegUser_Admin(){
                 text: "Ingresa una contraseña",
                 type: "error"
             }).then(function() {
-                window.location = "/admin/templates/registro.html";
+                window.location = "/katiaolem.github.io/admin/templates/registro.html";
             });
         }
     };

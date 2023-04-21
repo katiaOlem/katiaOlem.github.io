@@ -24,6 +24,7 @@ const assets = [
     "/katiaolem.github.io/crud/get_materiales.js",
     "/katiaolem.github.io/api/main.py",
     "/katiaolem.github.io/images/logo.png",
+    "/katiaolem.github.io/images/login.png",
     "/katiaolem.github.io/images/left-arrow.png",
     "/katiaolem.github.io/images/right-arrow.png",
     "/katiaolem.github.io/pages/fallback.html",
